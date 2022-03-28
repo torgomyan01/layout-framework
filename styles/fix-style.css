@@ -1,0 +1,1262 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.c-Bblue {
+    color: #1d2c40 !important;
+}
+
+.c-blue {
+    color: #5152FB !important;
+}
+
+.c-ashGray {
+    color: #A9A9A9 !important;
+}
+
+.noWrap {
+    white-space: nowrap;
+}
+
+.justify-content-space {
+    -webkit-box-pack: space-evenly !important;
+    -ms-flex-pack: space-evenly !important;
+    justify-content: space-evenly !important;
+}
+
+/***************/
+
+/* SCROLLBAR */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 0.1875rem;
+    padding-right: 0.625rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #d6d6d6;
+    border-radius: 0.3125rem;
+}
+
+/*  Video index  */
+
+.fix-video-main .video-index-nt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-height: 80rem;
+    min-height: 15rem;
+    height: 100%;
+    position: relative;
+}
+
+.video-events-typ {
+    max-width: 27.875rem;
+    width: 100%;
+    left: calc(50% - 10.9375rem);
+    top: 13.75rem;
+    border-radius: 0.625rem;
+    padding: 1.625rem 1.875rem 1.875rem 1.875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.video-events-type-start {
+    height: 18.688rem;
+    width: 21.188rem;
+    text-align: center;
+}
+
+.video-events-type-start > tbody > tr > td > h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 43px;
+    color: #000000;
+    margin: 0px 9px;
+}
+
+.video-events-type-start > tbody > tr > td > svg > rect:hover {
+    fill: #fa4769;
+}
+
+.video-index-time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 82px;
+    color: #000000;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin: 7px 0px;
+}
+
+.video-index-data {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #838a90;
+    margin: 7px 0px;
+}
+
+.video-search-members {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    background: #ffffff;
+    height: 40px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4px 5px 5px 15px;
+    margin-bottom: 1rem;
+}
+
+.video-search-select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 17.6rem;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.video-search-select > div:nth-of-type(2) {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 2px 10px;
+    width: 41px;
+    height: 30px;
+    background: #5152fb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.video-search-select > div:nth-of-type(2) > a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.video-border-bottom {
+    border-bottom: 1px #eeeeee solid;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.fix-video-main .video-index-search {
+    min-height: 15rem;
+}
+
+.participants-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.participants-display li:nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*   Live Events    */
+
+.video-live-events-nt {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    max-height: 70rem;
+    min-height: 30rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.bagColLiveEvents {
+    max-width: 138rem;
+    min-width: 35rem;
+    width: 100%;
+    padding: 10px;
+}
+
+.bag-col-blue-nt {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    position: relative;
+}
+
+.live-events-header {
+    padding: 10px 0;
+    background-color: #ffffff;
+    height: 135px;
+    max-width: 105rem;
+    min-width: 50rem;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.live-events-header > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.live-events-header > ul > li {
+    width: 205px;
+    height: 115px;
+    margin: 0 0 0 10px;
+    position: relative;
+}
+
+.live-events-header > ul > li > p {
+    position: absolute;
+    left: 10px;
+    bottom: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.video-liveEvents-start {
+    position: relative;
+    height: 100%;
+    background-image: url("../images/video-events/Milanlive.png");
+    max-height: calc(100% - 135px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.video-live-events-footer-nt {
+    background: #000000;
+    opacity: 0.54;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.video-live-events-footer-nt > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.video-live-events-footer-nt > ul > li {
+    margin: 18px;
+    text-align: -webkit-center;
+}
+
+.icon-txt {
+    font-family: Roboto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-top: 7px;
+}
+
+/*   End Live Events    */
+
+.live-events-close-mod-bnt {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+.live-events-invite-bnt {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #5152fb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5152fb;
+    bottom: 12px;
+}
+
+.participantsModLiveEvents {
+    width: 700px;
+    height: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+}
+
+.participantsModLiveEvents > div > div > h5 {
+    margin-bottom: 0.796rem;
+    width: 99px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.chatModLiveEvents {
+    width: 700px;
+    height: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: relative;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.chatMessVideoLive:hover {
+    background: #1d2c40;
+    color: #ffffff;
+}
+
+div.video-live-events-nt > div.chatModLiveEvents > div > div:nth-child(1) {
+    width: 100%;
+    height: 50px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+div.video-live-events-nt > div.chatModLiveEvents > div > div:nth-child(1) > h5 {
+    margin-bottom: 0.796rem;
+    width: 99px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.meeting-live-chat-content {
+    height: 80vh;
+}
+
+p.message-time-sent.small-text-2.color-dark-grey {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #838a90;
+}
+
+.channel-messages-list.custom-scrollbar li {
+    position: relative;
+}
+
+.channel-profile-avatar-1 {
+    position: absolute;
+    top: 0;
+}
+
+.participants-display li img {
+    margin: 0;
+}
+
+p.profile-name.medium-text.bold-text.color-black.pr-1 {
+    margin-left: 10px;
+}
+
+.channel-message-content {
+    padding: 5px 0 0 45px;
+}
+
+.chatMessVideoLive {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 6px 10px;
+    width: 239px;
+    height: auto;
+    background: #ddf3ff;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.participants-qty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.meeting-live-send-message {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+.meeting-live-send-message textarea {
+    max-width: 360px;
+    width: 100%;
+    height: 100%;
+    min-height: 85px;
+    border: 1px solid #dadfe6;
+    /*box-sizing: border-box;*/
+    border-radius: 3px;
+    /*text-indent: 10px;*/
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto
+> button {
+    background: #5152fb;
+    color: white;
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto
+> button
+> i {
+    margin-top: 2px;
+    margin-left: 1px;
+}
+
+div.video-live-events-nt
+> div.chatModLiveEvents
+> div.new-message.mb-15.mt-auto
+> button:nth-child(3) {
+    margin-right: 49px;
+    color: #838a90;
+    background: white;
+}
+
+.live-chat-close-mod-bnt {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+/* live events group */
+
+.group-live-events-video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px 20px;
+    max-height: 868px;
+    height: 100%;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+}
+
+.all-video-events-view {
+    width: calc((100% / 2) - 10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    margin: 5px;
+    position: relative;
+    height: calc(100% / 2);
+    max-width: 738px;
+}
+
+.all-video-events-view > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.new-video-live-events-footer-nt {
+    background: #f7f7f7;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.new-video-live-events-footer-nt > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.new-video-live-events-footer-nt > ul > li {
+    margin: 18px;
+    text-align: -webkit-center;
+}
+
+/* end live events group */
+
+
+/* New meeting Live */
+
+
+.all-video-events-view .video-events-skills {
+
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 93%;
+
+}
+
+.all-video-events-view .video-events-skills > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.off-camera-live-events {
+
+    -webkit-box-align: center;
+
+    -ms-flex-align: center;
+
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.off-camera-live-events > div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.off-camera-live-events > h5 {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+
+}
+
+.live-recording-call {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+}
+
+.endCallBnt {
+    width: 72px;
+    height: 39px;
+    background: #FF2222;
+    border-radius: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.endCallBnt > a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.new-chat-live-events {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.new-chat-live-events > div:nth-of-type(1) {
+    width: 50px;
+    height: auto;
+}
+
+.new-chat-live-events > div:nth-of-type(1) > div {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.new-chat-live-events > div:nth-of-type(2) > div {
+    background: #F3F3F5;
+    border-radius: 5px;
+    width: auto;
+    max-width: 315px;
+    min-width: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.new-chat-live-events > div:nth-of-type(2) > div > p {
+    ont-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    padding: 8px;
+}
+
+.new-chat-live-events > div:nth-of-type(2) > span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #8B939E;
+    margin: 0 3px;
+}
+
+.active-participants {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.active-chat {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+/* End New meeting Live */
+
+/*  Scheduled calls page */
+
+.no-scheduled-calls {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.no-scheduled-calls > h6 {
+    margin-top: 3rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D2C40;
+}
+
+.no-scheduled-calls > a {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 167px;
+    height: 40px;
+    background: #FBE9F8;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5152FB;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 0.890rem;
+}
+
+.scheduled-calls .block-calls:active {
+    border: 1px solid #5152FB;
+}
+
+.scheduled-calls .block-calls {
+    padding: 15px;
+    width: 284px;
+    height: 265px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 3px 3px rgb(0 0 0 / 3%);
+    box-shadow: 0 3px 3px rgb(0 0 0 / 3%);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.scheduled-calls .block-text-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+    color: #838A90;
+}
+
+.scheduled-calls .block-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin: 0 10px;
+}
+
+.scheduled-calls .header-block {
+    height: 30px;
+    margin-bottom: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.scheduled-calls .body-block {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.scheduled-calls .block-user-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000000;
+    margin: 0 10px;
+}
+
+.scheduled-calls .block-guests-avatar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin-top: .25rem;
+    margin-left: 0.2rem;
+}
+
+.scheduled-calls .block-guests-avatar > li {
+    margin-left: -0.3125rem;
+}
+
+.scheduled-calls .block-guests-avatar > li > img {
+    border: 0.125rem solid #ffffff;
+    border-radius: 50%;
+}
+
+.scheduled-calls #drop-call-block2 > i {
+    color: #000000;
+}
+
+.scheduled-calls .calls-block-drop > li > a:hover {
+    color: #5152FB;
+    background: #ffffff00;
+}
+
+.scheduled-calls .fix-wh-calls {
+    max-width: 1250px !important;
+    height: auto;
+}
+
+
+.scheduled-calls .checked-type-calls > ul > li > input:after {
+    left: 3px;
+    top: 3px;
+}
+
+
+.dropdown-toggle .fa-angle-down {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #5152FB;
+}
+
+.fix-header-call-details {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: #ffffff00 solid;
+}
+
+.callDetailsLabelType {
+    width: 194px;
+    height: 50px;
+    border: 1px solid #DEDEDE;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.callDetailsModalCancel:hover {
+    color: #5152FB;
+}
+
+.callDetailsModalCancel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0;
+    font-size: 13px;
+    line-height: 15px;
+    color: #85878A;
+    background: #ffffff00;
+    pointer-events: auto;
+}
+
+.callDetailsModalNext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px;
+    width: 168px;
+    height: 39px;
+    border: 1px solid #5152FB;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5152FB;
+    margin: 0;
+    background: #ffffff00;
+}
+
+.callDetailsModalNext > svg {
+    margin-left: 0.5rem;
+}
+
+#callDetailsModal .callDetailsLabelType > input:after {
+    left: 3px;
+    top: 3px;
+}
+
+.callDetailsModalScheduleCall {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px;
+    width: 104px;
+    height: 39px;
+    right: 37px;
+    bottom: 30px;
+    background: #5152FB;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.infoUserCallModal {
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.infoUserCallModal > div {
+    width: 120px;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.infoUserCallModal > h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 5px 0px;
+}
+
+.infoUserCallModal > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 0px 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.callModalStartBnt {
+    width: 100%;
+    height: 50px;
+    background: #FA4769;
+    border-radius: 5px;
+    border: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.successNote {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.successNote > h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #838A90;
+}
+
+.successNote > h6 > span {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+}
+
+#callModalCancel .videoCall {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838A90;
+}
+
+#ModalVideoCall .videoCall {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838A90;
+}
+
+.hangUpBnt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    border: none;
+    background: #ffffff00;
+}
+
+.recordModalImgUser {
+    width: 50px;
+    height: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.recordModalName {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 1rem;
+    font-size: 16px;
+    color: #000000;
+}
+
+.recordModalData {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 1rem;
+    color: #5152FB;
+}

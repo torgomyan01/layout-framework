@@ -1,0 +1,37 @@
+<div class="block-users-and-calls">
+
+  <div class="row p-0 justify-content-between align-items-center">
+    <div class="col-5 p-0 title-block">
+      Members
+    </div>
+    <div class="col-6 p-0">
+      <a href="#" class="scheduled-calls">
+        Invite
+        <div></div>
+        Start Call
+      </a>
+    </div>
+  </div>
+
+  <div class="row p-0 mt-3">
+    <label for="search-users-calls" class="search-users">
+      <input type="text" id="search-users-calls" placeholder="Search contacts...">
+      <i class="fal fa-search"></i>
+    </label>
+  </div>
+
+  <div class="row p-0 mt-3 h-100">
+    <div class="all-users">
+
+      <for count="5">
+        <component src="components/content/members-user-not-online.html"></component>
+      </for>
+
+      <for count="50">
+        <component src="components/content/members-user-online.html"></component>
+      </for>
+    </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,114 @@
+
+<div class="recent-calls">
+  <div class="header-dashboard-histories">
+    <a href="#history" class="tabs active" data-tabs="History">History</a>
+    <a href="#chats" class="tabs" data-tabs="Chats">Chats</a>
+    <a href="#groupChats" class="tabs" data-tabs="GroupChats">Group Chats</a>
+    <a href="#threads" class="tabs" data-tabs="Threads">Threads</a>
+    <a href="#SharedVideos" class="tabs" data-tabs="SharedVideos">Shared Videos</a>
+    <a href="#RecordedCalls" class="tabs" data-tabs="RecordedCalls">Recorded Calls</a>
+    <div class="solid"></div>
+  </div>
+
+
+  <div class="row p-0 h-100 flex-nowrap">
+    <div class="all-call-block hide" data-tab-name="#history">
+      <for count="3">
+        <component src="components/features/missed-call.html"></component>
+      </for>
+
+      <for count="5">
+        <component src="components/features/missed-call-outbond.html"></component>
+      </for>
+
+      <for count="5">
+        <component src="components/features/missed-call-inbound.html"></component>
+      </for>
+    </div>
+
+    <!-- CHAT BLOCK-->
+    <div class="all-call-block show" data-tab-name="#chats">
+      <div class="header-block mb-3">
+        <div class="title text-grey">You have 5 active chats with this uer</div>
+        <div class="start-new-chat">
+          <div>
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path
+                  d="M14.3426 7.5C14.3426 9.48912 13.5871 11.3968 12.2422 12.8033C10.8973 14.2098 9.07327 15 7.17131 15C5.26936 15 3.44531 14.2098 2.10043 12.8033C0.755547 11.3968 0 9.48912 0 7.5C0 5.51088 0.755547 3.60322 2.10043 2.1967C3.44531 0.790176 5.26936 0 7.17131 0C9.07327 0 10.8973 0.790176 12.2422 2.1967C13.5871 3.60322 14.3426 5.51088 14.3426 7.5ZM7.61952 4.21875C7.61952 4.09443 7.5723 3.9752 7.48825 3.88729C7.40419 3.79939 7.29019 3.75 7.17131 3.75C7.05244 3.75 6.93844 3.79939 6.85438 3.88729C6.77033 3.9752 6.72311 4.09443 6.72311 4.21875V7.03125H4.03386C3.91499 7.03125 3.80099 7.08064 3.71693 7.16854C3.63288 7.25645 3.58566 7.37568 3.58566 7.5C3.58566 7.62432 3.63288 7.74355 3.71693 7.83146C3.80099 7.91936 3.91499 7.96875 4.03386 7.96875H6.72311V10.7812C6.72311 10.9056 6.77033 11.0248 6.85438 11.1127C6.93844 11.2006 7.05244 11.25 7.17131 11.25C7.29019 11.25 7.40419 11.2006 7.48825 11.1127C7.5723 11.0248 7.61952 10.9056 7.61952 10.7812V7.96875H10.3088C10.4276 7.96875 10.5416 7.91936 10.6257 7.83146C10.7098 7.74355 10.757 7.62432 10.757 7.5C10.757 7.37568 10.7098 7.25645 10.6257 7.16854C10.5416 7.08064 10.4276 7.03125 10.3088 7.03125H7.61952V4.21875Z"
+                  fill="#5152FB"/>
+            </svg>
+          </div>
+          Start New Chat
+        </div>
+      </div>
+      <for count="5">
+        <component src="components/features/chat-list.html"></component>
+      </for>
+    </div>
+    <!-- CHAT BLOCK-->
+
+    <!-- GROUP CHATS-->
+    <div class="all-call-block show" data-tab-name="#groupChats">
+      <div class="header-block mb-4">
+        <div class="title text-grey">This user is part of a 4 group chats that you are on
+          too
+        </div>
+        <div class="start-new-chat">
+          <div>
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                  d="M14.3426 7.5C14.3426 9.48912 13.5871 11.3968 12.2422 12.8033C10.8973 14.2098 9.07327 15 7.17131 15C5.26936 15 3.44531 14.2098 2.10043 12.8033C0.755547 11.3968 0 9.48912 0 7.5C0 5.51088 0.755547 3.60322 2.10043 2.1967C3.44531 0.790176 5.26936 0 7.17131 0C9.07327 0 10.8973 0.790176 12.2422 2.1967C13.5871 3.60322 14.3426 5.51088 14.3426 7.5ZM7.61952 4.21875C7.61952 4.09443 7.5723 3.9752 7.48825 3.88729C7.40419 3.79939 7.29019 3.75 7.17131 3.75C7.05244 3.75 6.93844 3.79939 6.85438 3.88729C6.77033 3.9752 6.72311 4.09443 6.72311 4.21875V7.03125H4.03386C3.91499 7.03125 3.80099 7.08064 3.71693 7.16854C3.63288 7.25645 3.58566 7.37568 3.58566 7.5C3.58566 7.62432 3.63288 7.74355 3.71693 7.83146C3.80099 7.91936 3.91499 7.96875 4.03386 7.96875H6.72311V10.7812C6.72311 10.9056 6.77033 11.0248 6.85438 11.1127C6.93844 11.2006 7.05244 11.25 7.17131 11.25C7.29019 11.25 7.40419 11.2006 7.48825 11.1127C7.5723 11.0248 7.61952 10.9056 7.61952 10.7812V7.96875H10.3088C10.4276 7.96875 10.5416 7.91936 10.6257 7.83146C10.7098 7.74355 10.757 7.62432 10.757 7.5C10.757 7.37568 10.7098 7.25645 10.6257 7.16854C10.5416 7.08064 10.4276 7.03125 10.3088 7.03125H7.61952V4.21875Z"
+                  fill="#5152FB"/>
+            </svg>
+          </div>
+          Start New Chat
+        </div>
+      </div>
+      <for count="10">
+        <component src="components/features/group-chat-blocks.html"></component>
+      </for>
+
+    </div>
+    <!-- GROUP CHATS-->
+
+    <!-- THREADS-->
+    <div class="all-call-block show" data-tab-name="#threads">
+      <div class="header-block mb-4">
+        <div class="title text-grey">This user is part of a 7 threads that you are on too
+        </div>
+      </div>
+      <for count="30">
+        <component src="components/features/threads-list.html"></component>
+      </for>
+    </div>
+    <!-- THREADS-->
+
+    <!-- SHARED VIDEOS-->
+    <div class="all-call-block show" data-tab-name="#SharedVideos">
+      <div class="header-block mb-4">
+        <div class="title text-grey">You shared 6 videos with this user</div>
+      </div>
+
+      <for count="25">
+        <component src="components/features/shared-videos.html"></component>
+      </for>
+
+    </div>
+    <!-- SHARED VIDEOS-->
+
+
+    <!-- RECORD CALLS-->
+    <div class="all-call-block show" data-tab-name="#RecordedCalls">
+      <div class="header-block mb-4">
+        <div class="title text-grey">You shared 6 videos with this user</div>
+      </div>
+
+      <for count="50">
+        <component src="components/features/shared-videos.html"></component>
+      </for>
+
+    </div>
+    <!-- RECORD CALLS-->
+  </div>
+</div>
