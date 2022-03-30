@@ -8,7 +8,7 @@ class forComponent {
             const src = component.getAttribute('src');
             this.getComponent(src, (res) => {
                 this.addScript(res, (HTML) => {
-                    component.outerHTML = `<!---- THS COMPONENT URL ${src} -->${HTML}`;
+                    component.outerHTML = `<!---- THIS COMPONENT URL ${src} -->${HTML}`;
                 });
             })
             if(components.length > 0 && index === components.length - 1){
@@ -38,12 +38,20 @@ class forComponent {
     static startConvertFor(){
         const forTag = document.querySelectorAll('for');
         forTag.forEach((item) => {
-            const html = item.innerHTML;
+            let html = item.innerHTML;
             const count = +item.getAttribute('count');
+            const data = item.dataset;
+
             if(count){
                 let _html = '';
                 for (let i = 0; i < count; i++){
-                    _html += html + '\n';
+                    let _htm = html;
+                    for (let key in data){
+                        const keyArr = data[key].replace(/ /g, '').split(',');
+                        const reg = new RegExp(`{{${key}}}`, 'g');
+                        _htm =  _htm.replace(reg, keyArr[i]);
+                    }
+                    _html += _htm + '\n';
                 }
                 item.outerHTML = _html;
             }
@@ -58,4 +66,5 @@ class forComponent {
     }
 }
 
-forComponent.startCovertComponent()
+forComponent.startCovertComponent();
+forComponent.startConvertFor();
