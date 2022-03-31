@@ -47,7 +47,7 @@ class forComponent {
                 for (let i = 0; i < count; i++){
                     let _htm = html;
                     for (let key in data){
-                        const keyArr = data[key].replace(/ /g, '').split(',');
+                        const keyArr = data[key].split(',');
                         const reg = new RegExp(`{{${key}}}`, 'g');
                         _htm =  _htm.replace(reg, keyArr[i]);
                     }
