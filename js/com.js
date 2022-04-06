@@ -6,11 +6,35 @@ class forComponent {
         const components = document.querySelectorAll('component');
         components.forEach((component, index) => {
             const src = component.getAttribute('src');
-            this.getComponent(src, (res) => {
-                this.addScript(res, (HTML) => {
-                    component.outerHTML = `<!---- THIS COMPONENT URL ${src} -->${HTML}`;
-                });
-            })
+
+            const props = component.getAttribute('props');
+            if(props) {
+                const propsArray = props.replace(/[{,\n}]/g, '').split(';');
+                this.getComponent(src, (res) => {
+                    this.addScript(res, (HTML) => {
+                        let ConvertedHtml = HTML;
+                        propsArray.map((_props) => {
+                            const objProps = _props.split(':');
+                            const key = objProps[0].replace(/ /g, '');
+                            const val = objProps[1];
+                            console.log(val)
+
+
+                            const reg = new RegExp(`{{${key}}}`, 'g');
+                            ConvertedHtml = ConvertedHtml.replace(reg, val === `''` ? '' : val);
+                        })
+                        component.outerHTML = `<!---- THIS COMPONENT URL ${src} -->${ConvertedHtml}`;
+                    });
+                })
+            } else {
+                this.getComponent(src, (res) => {
+                    this.addScript(res, (HTML) => {
+                        component.outerHTML = `<!---- THIS COMPONENT URL ${src} -->${HTML}`;
+                    });
+                })
+            }
+
+
             if(components.length > 0 && index === components.length - 1){
                 this.startCovertComponent();
                 this.startConvertFor();

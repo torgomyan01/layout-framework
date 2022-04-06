@@ -1,24 +1,24 @@
   <!--navbar-->
   <div class="nav-bar" >
-    <a href="#">
-      <p class="icon">
-        <img src="images/personal-library-page/people.png" class="disabled" alt="">
-        <img src="images/personal-library-page/people-active.png" class="active-image" alt="">
-      </p>
-      <p class="name">
-        People
-      </p>
-    </a>
 
-    <a href="#" >
-      <p class="icon">
-        <img src="images/personal-library-page/drive.png" class="disabled" alt="">
-        <img src="images/personal-library-page/drive-active.png" class="active-image" alt="">
-      </p>
-      <p class="name">
-        Drive
-      </p>
-    </a>
+
+    <for count="2"
+         data-imglink="images/personal-library-page/people.png, images/personal-library-page/drive.png"
+         data-imglinkactive="images/personal-library-page/people-active.png, images/personal-library-page/drive-active.png"
+         data-name="People, Drive"
+    >
+
+      <a href="#">
+        <p class="icon">
+          <img src="{{imglink}}" class="disabled" alt="">
+          <img src="{{imglinkactive}}" class="active-image" alt="">
+        </p>
+        <p class="name">
+          {{name}}
+        </p>
+      </a>
+
+    </for>
 
     <a href="#" class="active">
       <p class="icon">
@@ -38,9 +38,7 @@
       </div>
 
       <div class="use-avatar">
-        <div class="avatar" style="background-image: url(images/personal-library-page/user-avatar.png)">
-          <!--                    <i class="fal fa-user"></i>-->
-        </div>
+        <div class="avatar" style="background-image: url(images/personal-library-page/user-avatar.png)"></div>
       </div>
     </div>
   </div>

@@ -3,13 +3,16 @@
   <div class="container main-body">
     <div class="row">
       <div class="col-xl-4 col-lg-12">
-        <component src="components/content/header-message-1.html"></component>
+        <component src="components/content/header-message-1.html" props="{title: Scheduled Calls; btnName: New Call; count: 10; ftText: Scheduled Calls}"></component>
       </div>
       <div class="col-xl-4 col-lg-4">
-        <component src="components/content/header-message-2.html"></component>
+          <component src="components/content/header-message-1.html" props="{title: Personal Library; btnName: Record Video; count: 23 videos; ftText: My Library}"></component>
       </div>
       <div class="col-xl-4 col-lg-8">
-        <component src="components/content/header-message-3.html"></component>
+          <component
+              src="components/content/header-message-1.html"
+              props="{title: Members; btnName: Invite Member; count: 19; ftText: Invite <div></div> Start Call}"
+          ></component>
       </div>
     </div>
 
@@ -21,8 +24,5 @@
         <component src="components/content/recent-calls.html"></component>
       </div>
     </div>
-
   </div>
-
-
 </div>
